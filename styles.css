@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    background: url('./images/tokyo-street1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 35vw;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    height: 30vh;
+}
+
+.middle {
+    height: 40vh;
+}
+
+.bottom {
+    height: 30vh;
+}
+

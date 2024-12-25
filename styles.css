@@ -22,10 +22,18 @@
 .right {
     display: flex;
     flex-direction: column;
+    background-color: green;
+    width: 65vw;
 }
 
 .top {
     height: 30vh;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    background: #F6F6F6;
 }
 
 .middle {

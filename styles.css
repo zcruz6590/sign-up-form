@@ -27,17 +27,28 @@
 }
 
 .top {
-    height: 30vh;
+    height: 20vh;
     display: flex;
     align-items: flex-end;
     padding-left: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     padding-right: 10%;
     background: #F6F6F6;
 }
 
 .middle {
-    height: 40vh;
+    height: 50vh;
+    background-color: #fff;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
 }
 
 .bottom {

@@ -7,14 +7,14 @@
     display: flex;
     flex-direction: row;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .left {
     background: url('./images/tokyo-street1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 35vw;
+    min-width: 30vw;
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -22,36 +22,98 @@
 .right {
     display: flex;
     flex-direction: column;
-    background-color: green;
-    width: 65vw;
+    width: 70vw;
+    background-color: #f9fafb;
 }
 
 .top {
     height: 20vh;
     display: flex;
     align-items: flex-end;
+    padding-top: 8%;
     padding-left: 5%;
     padding-bottom: 2%;
     padding-right: 10%;
-    background: #F6F6F6;
 }
 
 .middle {
-    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
     background-color: #fff;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 10%;
+    box-shadow: 2px 5px #E5E7EB;
+}
+
+.middle > .form-title {
+    position: relative;
+    margin: 0.5rem 0;
 }
 
 .main-form {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    max-width: 600px;
+    justify-content: flex-start;
+    gap: 5%;
+
 }
 
 .form-div {
     display: flex;
     flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.form-div > label {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.form-div > input {
+    width: 275px;
+    height: 25px;
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    padding-left: 6px;
+
+}
+
+input:focus {
+    border: 1px solid #89CFF0;
+}
+
+input:invalid {
+    border: 1px solid red;
 }
 
 .bottom {
     height: 30vh;
+    padding-left: 5%;
+    padding-top: 4%;
+    overflow: hidden;
+}
+
+.bottom > button {
+    background-color: #596D48;
+    min-width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: medium;
+    color: #fff;
+}
+
+.log-in > a {
+    color: #596D48;
+    text-decoration: none;
 }
 

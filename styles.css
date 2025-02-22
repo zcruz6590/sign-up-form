@@ -19,6 +19,28 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.for-logo {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 3.25em;
+}
+
+
+.for-transparency {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
 .right {
     display: flex;
     flex-direction: column;
